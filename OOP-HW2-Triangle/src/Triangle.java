@@ -109,6 +109,8 @@ public interface Triangle {
 	public double getPerimeter();
 	
 	
+	// A bonus of 8 points will be given for implementing the contains methods.
+	
 	/**
 	 * @param p:Point
 	 * @return True, if the triangle (this) contains the the point "p". Otherwise return false. 
