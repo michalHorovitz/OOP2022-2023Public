@@ -121,7 +121,7 @@ public interface Triangle {
 	/**
 	 * @param triangle:Triangle
 	 * @return True, if the triangle (this) contains the parameter "triangle". Otherwise return false. 
-	 *         If triangle==null, thenreturn false.
+	 *         If triangle==null, then return false.
 	 */
 	public boolean contains(Triangle triangle);
 		
