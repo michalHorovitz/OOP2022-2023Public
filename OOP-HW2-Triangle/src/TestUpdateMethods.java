@@ -24,7 +24,13 @@ public class TestUpdateMethods {
 	}
 
 	@Test
-	public void testMoveHorizontal() {
+	public void testMoveHorizontalAndMoveVertical() {
+		testMoveHorisontal();
+		setUp();
+		testMoveVertical();
+	}
+	
+	private void testMoveHorisontal() {
 		tr1.moveHorizontal(1);
 		assertTrue(HW2Utils.areEqual(tr1.getLengthEdge(), 1));
 		assertEquals(tr1.getCenter(), new Point(1, 0));
@@ -42,8 +48,7 @@ public class TestUpdateMethods {
 		assertEquals(tr1.getCenter(), tr2.getCenter());
 	}
 
-	@Test
-	public void testMoveVertical() {
+	private void testMoveVertical() {
 		tr1.moveVertical(1);
 		assertTrue(HW2Utils.areEqual(tr1.getLengthEdge(), 1));
 		assertEquals(tr1.getCenter(), new Point(0, 1));
