@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * @author Michal Hotovitz
  */
-public class TestHW2Update {
+public class TestUpdate {
 
 	Triangle tr1;
 	Triangle tr2;

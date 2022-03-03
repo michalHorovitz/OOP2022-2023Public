@@ -9,7 +9,7 @@ import org.junit.Test;
 /**
  * @author Michal Hotovitz
  */
-public class TestHW2Setters {
+public class TestSetters {
 
 	Triangle tr1;
 	Triangle tr2;

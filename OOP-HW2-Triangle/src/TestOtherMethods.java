@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * @author Michal Hotovitz
  */
-public class TestHW2OtherMethods {
+public class TestOtherMethods {
 
 	Triangle tr1;
 	Triangle tr2;
