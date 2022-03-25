@@ -9,7 +9,7 @@
 public interface Triangle {
 
 	/**
-	 * @return an array of the three points of the circle.
+	 * @return an array of the three points of the triangle.
 	 */
 	public Point[] getVertices();
 
@@ -72,7 +72,7 @@ public interface Triangle {
 	/**
 	 * @param delta:double
 	 *            Move the triangle (this) to the right by delta (Note that delta
-	 *            might be negative, and then the circle is moved to the left).
+	 *            might be negative, and then the triangle is moved to the left).
 	 */
 	public void moveVertical(double delta);
 
