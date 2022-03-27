@@ -51,7 +51,7 @@ public interface Triangle {
 	public void updateHeight(double height);
 	
 	/**
-	 * inverse the triangle, such that if the thirdVertex is upper that the others, it will be lower than them, and vice verse.
+	 * inverse the triangle, such that if the thirdVertex is upper than the others, it will be lower than them, and vice versa.
 	 */
 	public void inverse();
 
