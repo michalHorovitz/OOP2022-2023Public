@@ -15,7 +15,7 @@ public class TestOtherMethods {
 	Rhombus r21;
 	Rhombus r22;
 	Rhombus r23;
-	
+
 	@Before
 	public void setUp() {
 		r11 = new Rhombus1();
@@ -26,7 +26,7 @@ public class TestOtherMethods {
 		r22 = new Rhombus2(new Point(0, 0), Math.PI / 2, 1);
 		r23 = new Rhombus2(new Point(1, 1), Math.PI / 3, 6);
 	}
-	
+
 	@Test
 	public void testConstructorAndIsEqual() {
 		assertTrue(r11.isEqual(r12));
@@ -42,12 +42,15 @@ public class TestOtherMethods {
 	}
 
 	@Test
-	public void testAreaAndPerimeter() {
+	public void testArea() {
 		assertTrue(HW2Utils.areEqual(r12.getArea(), 0.5));
 		assertTrue(HW2Utils.areEqual(r22.getArea(), 0.5));
 		assertTrue(HW2Utils.areEqual(r13.getArea(), 6 * Math.sqrt(3)));
 		assertTrue(HW2Utils.areEqual(r23.getArea(), 6 * Math.sqrt(3)));
+	}
 
+	@Test
+	public void testPerimeter() {
 		assertTrue(HW2Utils.areEqual(r12.getPerimeter(), 4 * Math.sqrt(0.5 * 0.5 * 2)));
 		assertTrue(HW2Utils.areEqual(r22.getPerimeter(), 4 * Math.sqrt(0.5 * 0.5 * 2)));
 		assertTrue(HW2Utils.areEqual(r13.getPerimeter(), 12 / Math.cos(Math.PI / 6)));
