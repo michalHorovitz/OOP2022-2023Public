@@ -51,12 +51,12 @@ public interface Rhombus {
 	/**
 	 * @return the area
 	 */
-	public double getArea();
+	public double area();
 
 	/**
 	 * @return the perimeter
 	 */
-	public double getPerimeter();
+	public double perimeter();
 
 	/**
 	 * @param p (not null) Set the center point of the rhombus to be a copy of p.

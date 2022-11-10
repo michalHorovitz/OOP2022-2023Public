@@ -43,18 +43,18 @@ public class TestOtherMethods {
 
 	@Test
 	public void testArea() {
-		assertTrue(HW2Utils.areEqual(r12.getArea(), 0.5));
-		assertTrue(HW2Utils.areEqual(r22.getArea(), 0.5));
-		assertTrue(HW2Utils.areEqual(r13.getArea(), 6 * Math.sqrt(3)));
-		assertTrue(HW2Utils.areEqual(r23.getArea(), 6 * Math.sqrt(3)));
+		assertTrue(HW2Utils.areEqual(r12.area(), 0.5));
+		assertTrue(HW2Utils.areEqual(r22.area(), 0.5));
+		assertTrue(HW2Utils.areEqual(r13.area(), 6 * Math.sqrt(3)));
+		assertTrue(HW2Utils.areEqual(r23.area(), 6 * Math.sqrt(3)));
 	}
 
 	@Test
 	public void testPerimeter() {
-		assertTrue(HW2Utils.areEqual(r12.getPerimeter(), 4 * Math.sqrt(0.5 * 0.5 * 2)));
-		assertTrue(HW2Utils.areEqual(r22.getPerimeter(), 4 * Math.sqrt(0.5 * 0.5 * 2)));
-		assertTrue(HW2Utils.areEqual(r13.getPerimeter(), 12 / Math.cos(Math.PI / 6)));
-		assertTrue(HW2Utils.areEqual(r23.getPerimeter(), 12 / Math.cos(Math.PI / 6)));
+		assertTrue(HW2Utils.areEqual(r12.perimeter(), 4 * Math.sqrt(0.5 * 0.5 * 2)));
+		assertTrue(HW2Utils.areEqual(r22.perimeter(), 4 * Math.sqrt(0.5 * 0.5 * 2)));
+		assertTrue(HW2Utils.areEqual(r13.perimeter(), 12 / Math.cos(Math.PI / 6)));
+		assertTrue(HW2Utils.areEqual(r23.perimeter(), 12 / Math.cos(Math.PI / 6)));
 	}
 
 	@Test
