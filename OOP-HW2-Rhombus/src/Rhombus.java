@@ -122,11 +122,4 @@ public interface Rhombus {
 	 */
 	public boolean isEqual(Rhombus rhombus);
 
-//	/**
-//	 * @param rhombus:Rhombus
-//	 * @return If the rhombus (this) contains the rhombus which represented by the
-//	 *         paramter, then return true. Otherwise, return false
-//	 */
-//	public boolean contains(Rhombus rhombus);
-
 }
