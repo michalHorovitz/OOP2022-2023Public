@@ -103,15 +103,15 @@ public interface Rhombus {
 	public void scale(double scalePar);
 
 	/**
-	 * @param delta:double - Move the rhombus to the right by delta (Note that delta
+	 * @param delta:double - Move up the rhombus (this) by delta (Note that delta
 	 *                     might be negative, and then the rhombus is moved to the
-	 *                     left).
+	 *                     down).
 	 */
 	public void moveVertical(double delta);
 
 	/**
-	 * @param delta:double - Move up the rhombus (this) by delta (Note that delta
-	 *                     might be negative, and then the rhombus is moved down).
+	 * @param delta:double - Move the rhombus (this) to the right by delta (Note that delta
+	 *                     might be negative, and then the rhombus is moved left).
 	 */
 	public void moveHorizontal(double delta);
 
